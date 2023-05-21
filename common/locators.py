@@ -1,7 +1,6 @@
 '''
 common/locators.py consists all the element locators used in TestCases/test_file.py
 '''
-
 ALL_TABS = "div.category-cards"
 BOOK_STORE_TAB_NAME = "(//div[@class='card-body'])[6]"
 BOOK_STORE_TAB = "//body//div//div[6]"
