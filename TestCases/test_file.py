@@ -88,7 +88,7 @@ def test_search_book_get_author(driver, action_chain):
 @pytest.mark.usefixtures('driver', 'open_browser', 'action_chain')
 def test_element_tab_radio(driver, action_chain):
     """
-    In this test we are verifying the elements tab availibility and checkbox functionality.
+    In this test we are verifying the elements tab availibility and radio button functionality.
     :param driver: driver object
     :param action_chain: action chains object
     :return:
