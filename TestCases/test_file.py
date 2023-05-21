@@ -4,7 +4,7 @@ TestCases/test_file.py consists of test cases from demo site https://demoqa.com/
 import time
 import pytest
 from selenium.webdriver.common.by import By
-from ..common import locators
+from common import locators
 
 
 @pytest.mark.usefixtures('driver', 'open_browser', 'action_chain')
